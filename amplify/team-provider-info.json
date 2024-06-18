@@ -9,11 +9,24 @@
       "UnauthRoleName": "amplify-superexpress-dev-a00e3-unauthRole",
       "StackName": "amplify-superexpress-dev-a00e3",
       "StackId": "arn:aws:cloudformation:us-east-1:471112675117:stack/amplify-superexpress-dev-a00e3/39bcf460-2d46-11ef-9ddc-0afff84dc07b",
-      "AmplifyAppId": "d3fq2wpzew8z6p"
+      "AmplifyAppId": "d3fq2wpzew8z6p",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-superexpress-dev-a00e3-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "hosting": {
         "S3AndCloudFront": {}
+      },
+      "auth": {
+        "superexpress4d10d861": {}
+      },
+      "function": {
+        "superexpress4d10d861CustomMessage": {
+          "REDIRECTURL": "https://dmf2ql07vuwdh.cloudfront.net/",
+          "EMAILSUBJECT": "Account Validation",
+          "EMAILMESSAGE": "Por favor valide su correo electronico.",
+          "deploymentBucketName": "amplify-superexpress-dev-a00e3-deployment",
+          "s3Key": "amplify-builds/superexpress4d10d861CustomMessage-4462386a6a692f493152-build.zip"
+        }
       }
     }
   }
