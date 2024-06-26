@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <p>Contáctanos al WhatsApp: +506 7060-8880</p>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo super express" />
         <h1>Super Express</h1>
       </header>
       <Authenticator>
